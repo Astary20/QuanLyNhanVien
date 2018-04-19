@@ -71,5 +71,18 @@
         android:layout_toRightOf="@id/btList"
         android:layout_below="@+id/btDelete"
         android:text="Edit"/>
+    <Button
+        android:id="@+id/btChange"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btEdit"
+        android:text="Change Pass"/>
+    <Button
+        android:id="@+id/btForget"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btList"
+        android:layout_below="@+id/btEdit"
+        android:text="Forget pass"/>
 
 </RelativeLayout>
