@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NVActivity">
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,8 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".DanhSachActivity" />
+        <activity android:name=".QLNVActivity" />
+        <activity android:name=".NVActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".QLNVActivity"></activity>
+        <activity android:name=".AdminActivity"></activity>
     </application>
 
 </manifest>

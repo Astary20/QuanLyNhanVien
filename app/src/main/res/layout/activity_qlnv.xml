@@ -5,11 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
+    android:background="#d9e4e1"
     tools:context="com.example.pc.quanlynhanvien.QLNVActivity">
     <TextView
         android:id="@+id/tvQuanly"
         android:text="Manage Employees"
         android:textSize="28dp"
+        android:textColor="#716363"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"/>
@@ -48,6 +51,7 @@
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edAddress"
+        android:background="#d2dbff"
         android:text="Add"/>
 
     <Button
@@ -56,6 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/edAddress"
         android:layout_toRightOf="@id/btAdd"
+        android:background="#f7dddd"
         android:text="Delete"/>
 
     <Button
@@ -63,6 +68,7 @@
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btDelete"
+        android:background="#f0def4"
         android:text="List Employees"/>
     <Button
         android:id="@+id/btEdit"
@@ -70,12 +76,14 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/btList"
         android:layout_below="@+id/btDelete"
+        android:background="#feffd2"
         android:text="Edit"/>
     <Button
         android:id="@+id/btChange"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btEdit"
+        android:background="#d2dbff"
         android:text="Change Pass"/>
     <Button
         android:id="@+id/btForget"
@@ -83,6 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/btList"
         android:layout_below="@+id/btEdit"
+        android:background="#f7dddd"
         android:text="Forget pass"/>
 
 </RelativeLayout>

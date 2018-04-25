@@ -1,10 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    tools:context="com.example.pc.quanlynhanvien.MainActivity">
+    tools:context=".MainActivity"
+    android:background="#d3e4da">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Username"
+        android:paddingTop="50dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:id="@+id/ImgAdmin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/icon_admin"/>
+        <Button
+            android:id="@+id/btAdmin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ImgManage"
+            android:text="Admin"/>
+        <ImageView
+            android:id="@+id/ImgManage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/ImgAdmin"
+            android:src="@drawable/icon_manager"/>
+        <Button
+            android:id="@+id/btManage"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ImgManage"
+            android:layout_below="@id/btAdmin"
+            android:text="Manage"/>
+        <ImageView
+            android:id="@+id/ImgEmployees"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/ImgManage"
+            android:src="@drawable/icon_employees"/>
+        <Button
+            android:id="@+id/btEmployees"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ImgEmployees"
+            android:layout_below="@id/btManage"
+            android:text="Employees"/>
+    </RelativeLayout>
 
-</LinearLayout>
+
+</RelativeLayout>
